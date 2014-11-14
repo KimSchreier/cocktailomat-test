@@ -1,0 +1,89 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'Polymer/core-elements' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json Polymer@0.5.1 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'Polymer/core-elements', null ]
+7 verbose cache add name=undefined spec="Polymer/core-elements" args=["Polymer/core-elements",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'Polymer/core-elements',
+8 verbose parsed url   path: 'Polymer/core-elements',
+8 verbose parsed url   href: 'Polymer/core-elements' }
+9 silly lockFile 2f69eb73-Polymer-core-elements Polymer/core-elements
+10 verbose lock Polymer/core-elements /root/.npm/2f69eb73-Polymer-core-elements.lock
+11 info maybeGithub Attempting Polymer/core-elements from git://github.com/Polymer/core-elements
+12 silly lockFile f7b760b1-github-com-Polymer-core-elements git://github.com/Polymer/core-elements
+13 verbose lock git://github.com/Polymer/core-elements /root/.npm/f7b760b1-github-com-Polymer-core-elements.lock
+14 verbose addRemoteGit [ 'git://github.com/Polymer/core-elements', 'master' ]
+15 verbose git clone git://github.com/Polymer/core-elements Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-Polymer-core-elements-f7b760b1'...
+15 verbose git clone git://github.com/Polymer/core-elements
+15 verbose git clone git://github.com/Polymer/core-elements warning: expected SRV RR, found RR type 1
+16 verbose git fetch -a origin (git://github.com/Polymer/core-elements) warning: expected SRV RR, found RR type 1
+17 verbose git rev-list -n1 master 40e58dbf74aea851c5ea2c44a8fcc642cfb12380
+18 verbose resolved git url git://github.com/Polymer/core-elements#40e58dbf74aea851c5ea2c44a8fcc642cfb12380
+19 verbose tar unpack /tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz
+20 silly lockFile ff1a9eb5--9920591725967824-tmp-tgz-unpack tar:///tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz-unpack
+21 verbose lock tar:///tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz-unpack /root/.npm/ff1a9eb5--9920591725967824-tmp-tgz-unpack.lock
+22 silly lockFile 490c79ff-37464-0-9920591725967824-tmp-tgz tar:///tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz
+23 verbose lock tar:///tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz /root/.npm/490c79ff-37464-0-9920591725967824-tmp-tgz.lock
+24 silly gunzTarPerm modes [ '755', '644' ]
+25 silly gunzTarPerm extractEntry
+26 silly gunzTarPerm modified mode [ '', 509, 493 ]
+27 silly gunzTarPerm extractEntry README.md
+28 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+29 silly gunzTarPerm extractEntry bower.json
+30 silly gunzTarPerm modified mode [ 'bower.json', 436, 420 ]
+31 silly gunzTarPerm extractEntry core-elements.html
+32 silly gunzTarPerm modified mode [ 'core-elements.html', 436, 420 ]
+33 silly gunzTarPerm extractEntry demo.html
+34 silly gunzTarPerm modified mode [ 'demo.html', 436, 420 ]
+35 silly gunzTarPerm extractEntry index.html
+36 silly gunzTarPerm modified mode [ 'index.html', 436, 420 ]
+37 silly gunzTarPerm extractEntry metadata.html
+38 silly gunzTarPerm modified mode [ 'metadata.html', 436, 420 ]
+39 silly lockFile ff1a9eb5--9920591725967824-tmp-tgz-unpack tar:///tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz-unpack
+40 silly lockFile ff1a9eb5--9920591725967824-tmp-tgz-unpack tar:///tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz-unpack
+41 silly lockFile 490c79ff-37464-0-9920591725967824-tmp-tgz tar:///tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz
+42 silly lockFile 490c79ff-37464-0-9920591725967824-tmp-tgz tar:///tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz
+43 silly lockFile f7b760b1-github-com-Polymer-core-elements git://github.com/Polymer/core-elements
+44 silly lockFile f7b760b1-github-com-Polymer-core-elements git://github.com/Polymer/core-elements
+45 info maybeGithub Attempting Polymer/core-elements from git+ssh://git@github.com:Polymer/core-elements
+46 silly lockFile 67a046dc-github-com-Polymer-core-elements git@github.com:Polymer/core-elements
+47 verbose lock git@github.com:Polymer/core-elements /root/.npm/67a046dc-github-com-Polymer-core-elements.lock
+48 verbose addRemoteGit [ 'git@github.com:Polymer/core-elements', 'master' ]
+49 error git clone git@github.com:Polymer/core-elements Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-Polymer-core-elements-67a046dc'...
+49 error git clone git@github.com:Polymer/core-elements
+49 error git clone git@github.com:Polymer/core-elements Warning: Permanently added 'github.com,192.30.252.130' (RSA) to the list of known hosts.
+49 error git clone git@github.com:Polymer/core-elements Permission denied (publickey).
+49 error git clone git@github.com:Polymer/core-elements fatal: The remote end hung up unexpectedly
+50 silly lockFile 67a046dc-github-com-Polymer-core-elements git@github.com:Polymer/core-elements
+51 silly lockFile 67a046dc-github-com-Polymer-core-elements git@github.com:Polymer/core-elements
+52 silly lockFile 2f69eb73-Polymer-core-elements Polymer/core-elements
+53 silly lockFile 2f69eb73-Polymer-core-elements Polymer/core-elements
+54 error addLocal Could not install Polymer/core-elements
+55 error Error: ENOENT, stat 'Polymer/core-elements'
+56 error If you need help, you may report this *entire* log,
+56 error including the npm and node versions, at:
+56 error     <http://github.com/npm/npm/issues>
+57 error System Linux 3.2.0-4-amd64
+58 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "Polymer/core-elements"
+59 error cwd /vagrant/cocktailomat-test
+60 error node -v v0.10.33
+61 error npm -v 1.4.28
+62 error path Polymer/core-elements
+63 error code ENOENT
+64 error errno 34
+65 verbose exit [ 34, true ]
