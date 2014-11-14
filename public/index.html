@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <title>Blog</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="../bower_components/webcomponentsjs/webcomponents.js"></script>
+    
+    <link rel="import" href="../bower_components/polymer/polymer.html" >
+    <link rel="import" href="../bower_components/core-scroll-header-panel/core-scroll-header-panel.html">
+    <link rel="import" href="../bower_components/core-icon-button/core-icon-button.html">
+    <link rel="import" href="../bower_components/core-toolbar/core-toolbar.html">
+
+    
+    
+
+</head>
+<body>
+<style>
+     :host {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+      }
+      #core_scroll_header_panel {
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+      }
+      #core_toolbar {
+        color: rgb(241, 241, 241);
+        fill: rgb(241, 241, 241);
+        background-color: rgb(66, 133, 244);
+      }
+      #section {
+        height: 5000px;
+        background: linear-gradient(rgb(214, 227, 231), rgb(173, 216, 230));       
+</style>
+    <core-scroll-header-panel headermargin="128" condenses headerheight="192" id="core_scroll_header_panel" waterfall>
+      <core-toolbar id="core_toolbar" class="tall">
+        <core-icon-button icon="arrow-back" id="core_icon_button"></core-icon-button>
+        <div id="div" flex></div>
+        <core-icon-button icon="search" id="core_icon_button1"></core-icon-button>
+        <core-icon-button icon="more-vert" id="core_icon_button2"></core-icon-button>
+        <div id="div1" class="bottom indent">Blog</div>
+      </core-toolbar>
+      <section id="section" content>
+          
+        Test
+          
+      </section>
+    </core-scroll-header-panel>
+
+
+
+
+    </div>
+</body>
+
+</html>
