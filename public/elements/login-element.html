@@ -1,13 +1,22 @@
+<script src="../../bower_components/webcomponentsjs/webcomponents.js"></script>
+
 <link rel="import" href="../../bower_components/polymer/polymer.html">
-<link rel="import" href="../../bower_components/core-input/core-input.html"
+<link rel="import" href="../../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
 
 <polymer-element name="login-element" noscript>
 
   <template>
     <style>    
-
+        
     </style>
-    <input is="core-input"></input>
+      <div id="header"><h2>Log In</h2></div>
+    <div id="content">
+        <paper-input label="Vorname" floatingLabel></paper-input>
+        <paper-input label="Nachname" floatingLabel></paper-input>
+    </div>
+      
+      <paper-button raised><core-icon icon="done"></core-icon>Log In</paper-button>
   </template>
 
 
