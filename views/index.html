@@ -13,6 +13,7 @@
     <link rel="import" href="../bower_components/core-scroll-header-panel/core-scroll-header-panel.html">
     <link rel="import" href="../bower_components/core-icon-button/core-icon-button.html">
     <link rel="import" href="../bower_components/core-toolbar/core-toolbar.html">
+    <link rel="import" href="../bower_components/paper-fab/paper-fab.html">
 
     
     
@@ -40,8 +41,22 @@
       }
       #section {
         height: 5000px;
-        background: linear-gradient(rgb(214, 227, 231), rgb(173, 216, 230));       
+        background: linear-gradient(rgb(214, 227, 231), rgb(173, 216, 230)); 
+      }
+    .bottom indent{
+        font-size: 20px;
+    }
+    paper-fab {
+      color: #fff;
+      margin-right: 2em;
+      margin-bottom: 2em;
+      position: fixed;
+      text-align: right;
+        
+    }
+    
 </style>
+    
     <core-scroll-header-panel headermargin="128" condenses headerheight="192" id="core_scroll_header_panel" waterfall>
       <core-toolbar id="core_toolbar" class="tall">
         <core-icon-button icon="arrow-back" id="core_icon_button"></core-icon-button>
@@ -51,8 +66,8 @@
         <div id="div1" class="bottom indent">Blog</div>
       </core-toolbar>
       <section id="section" content>
-          
-        Test
+          <paper-fab icon="add" title="add"></paper-fab>
+        <h1>Posts</h1>
           
       </section>
     </core-scroll-header-panel>
@@ -60,7 +75,6 @@
 
 
 
-    </div>
 </body>
 
 </html>
