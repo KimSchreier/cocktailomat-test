@@ -1,89 +1,166 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/usr/local/bin/node',
 1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   '-g',
 1 verbose cli   'install',
-1 verbose cli   '--save',
-1 verbose cli   'Polymer/core-elements' ]
+1 verbose cli   'ejs' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.33
-4 warn package.json Polymer@0.5.1 No repository field.
-5 verbose readDependencies using package.json deps
-6 verbose cache add [ 'Polymer/core-elements', null ]
-7 verbose cache add name=undefined spec="Polymer/core-elements" args=["Polymer/core-elements",null]
-8 verbose parsed url { protocol: null,
-8 verbose parsed url   slashes: null,
-8 verbose parsed url   auth: null,
-8 verbose parsed url   host: null,
-8 verbose parsed url   port: null,
-8 verbose parsed url   hostname: null,
-8 verbose parsed url   hash: null,
-8 verbose parsed url   search: null,
-8 verbose parsed url   query: null,
-8 verbose parsed url   pathname: 'Polymer/core-elements',
-8 verbose parsed url   path: 'Polymer/core-elements',
-8 verbose parsed url   href: 'Polymer/core-elements' }
-9 silly lockFile 2f69eb73-Polymer-core-elements Polymer/core-elements
-10 verbose lock Polymer/core-elements /root/.npm/2f69eb73-Polymer-core-elements.lock
-11 info maybeGithub Attempting Polymer/core-elements from git://github.com/Polymer/core-elements
-12 silly lockFile f7b760b1-github-com-Polymer-core-elements git://github.com/Polymer/core-elements
-13 verbose lock git://github.com/Polymer/core-elements /root/.npm/f7b760b1-github-com-Polymer-core-elements.lock
-14 verbose addRemoteGit [ 'git://github.com/Polymer/core-elements', 'master' ]
-15 verbose git clone git://github.com/Polymer/core-elements Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-Polymer-core-elements-f7b760b1'...
-15 verbose git clone git://github.com/Polymer/core-elements
-15 verbose git clone git://github.com/Polymer/core-elements warning: expected SRV RR, found RR type 1
-16 verbose git fetch -a origin (git://github.com/Polymer/core-elements) warning: expected SRV RR, found RR type 1
-17 verbose git rev-list -n1 master 40e58dbf74aea851c5ea2c44a8fcc642cfb12380
-18 verbose resolved git url git://github.com/Polymer/core-elements#40e58dbf74aea851c5ea2c44a8fcc642cfb12380
-19 verbose tar unpack /tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz
-20 silly lockFile ff1a9eb5--9920591725967824-tmp-tgz-unpack tar:///tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz-unpack
-21 verbose lock tar:///tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz-unpack /root/.npm/ff1a9eb5--9920591725967824-tmp-tgz-unpack.lock
-22 silly lockFile 490c79ff-37464-0-9920591725967824-tmp-tgz tar:///tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz
-23 verbose lock tar:///tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz /root/.npm/490c79ff-37464-0-9920591725967824-tmp-tgz.lock
-24 silly gunzTarPerm modes [ '755', '644' ]
-25 silly gunzTarPerm extractEntry
-26 silly gunzTarPerm modified mode [ '', 509, 493 ]
-27 silly gunzTarPerm extractEntry README.md
-28 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
-29 silly gunzTarPerm extractEntry bower.json
-30 silly gunzTarPerm modified mode [ 'bower.json', 436, 420 ]
-31 silly gunzTarPerm extractEntry core-elements.html
-32 silly gunzTarPerm modified mode [ 'core-elements.html', 436, 420 ]
-33 silly gunzTarPerm extractEntry demo.html
-34 silly gunzTarPerm modified mode [ 'demo.html', 436, 420 ]
-35 silly gunzTarPerm extractEntry index.html
-36 silly gunzTarPerm modified mode [ 'index.html', 436, 420 ]
-37 silly gunzTarPerm extractEntry metadata.html
-38 silly gunzTarPerm modified mode [ 'metadata.html', 436, 420 ]
-39 silly lockFile ff1a9eb5--9920591725967824-tmp-tgz-unpack tar:///tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz-unpack
-40 silly lockFile ff1a9eb5--9920591725967824-tmp-tgz-unpack tar:///tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz-unpack
-41 silly lockFile 490c79ff-37464-0-9920591725967824-tmp-tgz tar:///tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz
-42 silly lockFile 490c79ff-37464-0-9920591725967824-tmp-tgz tar:///tmp/npm-7482-L8L7cvlD/1415967237464-0.9920591725967824/tmp.tgz
-43 silly lockFile f7b760b1-github-com-Polymer-core-elements git://github.com/Polymer/core-elements
-44 silly lockFile f7b760b1-github-com-Polymer-core-elements git://github.com/Polymer/core-elements
-45 info maybeGithub Attempting Polymer/core-elements from git+ssh://git@github.com:Polymer/core-elements
-46 silly lockFile 67a046dc-github-com-Polymer-core-elements git@github.com:Polymer/core-elements
-47 verbose lock git@github.com:Polymer/core-elements /root/.npm/67a046dc-github-com-Polymer-core-elements.lock
-48 verbose addRemoteGit [ 'git@github.com:Polymer/core-elements', 'master' ]
-49 error git clone git@github.com:Polymer/core-elements Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-Polymer-core-elements-67a046dc'...
-49 error git clone git@github.com:Polymer/core-elements
-49 error git clone git@github.com:Polymer/core-elements Warning: Permanently added 'github.com,192.30.252.130' (RSA) to the list of known hosts.
-49 error git clone git@github.com:Polymer/core-elements Permission denied (publickey).
-49 error git clone git@github.com:Polymer/core-elements fatal: The remote end hung up unexpectedly
-50 silly lockFile 67a046dc-github-com-Polymer-core-elements git@github.com:Polymer/core-elements
-51 silly lockFile 67a046dc-github-com-Polymer-core-elements git@github.com:Polymer/core-elements
-52 silly lockFile 2f69eb73-Polymer-core-elements Polymer/core-elements
-53 silly lockFile 2f69eb73-Polymer-core-elements Polymer/core-elements
-54 error addLocal Could not install Polymer/core-elements
-55 error Error: ENOENT, stat 'Polymer/core-elements'
-56 error If you need help, you may report this *entire* log,
-56 error including the npm and node versions, at:
-56 error     <http://github.com/npm/npm/issues>
-57 error System Linux 3.2.0-4-amd64
-58 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "Polymer/core-elements"
-59 error cwd /vagrant/cocktailomat-test
-60 error node -v v0.10.33
-61 error npm -v 1.4.28
-62 error path Polymer/core-elements
-63 error code ENOENT
-64 error errno 34
-65 verbose exit [ 34, true ]
+4 verbose cache add [ 'ejs', null ]
+5 verbose cache add name=undefined spec="ejs" args=["ejs",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'ejs',
+6 verbose parsed url   path: 'ejs',
+6 verbose parsed url   href: 'ejs' }
+7 silly lockFile 75eeca8f-ejs ejs
+8 verbose lock ejs /home/vagrant/.npm/75eeca8f-ejs.lock
+9 silly lockFile 75eeca8f-ejs ejs
+10 silly lockFile 75eeca8f-ejs ejs
+11 verbose addNamed [ 'ejs', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile bcdf6e5f-ejs ejs@
+14 verbose lock ejs@ /home/vagrant/.npm/bcdf6e5f-ejs.lock
+15 silly addNameRange { name: 'ejs', range: '*', hasData: false }
+16 verbose request where is /ejs
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 407fac0decbda908
+19 verbose url raw /ejs
+20 verbose url resolving [ 'https://registry.npmjs.org/', './ejs' ]
+21 verbose url resolved https://registry.npmjs.org/ejs
+22 verbose request where is https://registry.npmjs.org/ejs
+23 info trying registry request attempt 1 at 11:51:02
+24 http GET https://registry.npmjs.org/ejs
+25 http 200 https://registry.npmjs.org/ejs
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Mon, 17 Nov 2014 11:51:07 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"15TJWYSPTT04PG8RFMKMQ8233"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '25264',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-fra1230-FRA',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1416225066.384917,VS0,VE731',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'ejs', range: '*', hasData: true }
+28 silly addNameRange versions [ 'ejs',
+28 silly addNameRange   [ '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.0.4',
+28 silly addNameRange     '0.1.0',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.4.1',
+28 silly addNameRange     '0.4.2',
+28 silly addNameRange     '0.4.3',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.7.1',
+28 silly addNameRange     '0.7.2',
+28 silly addNameRange     '0.8.0',
+28 silly addNameRange     '0.8.1',
+28 silly addNameRange     '0.8.2',
+28 silly addNameRange     '0.8.3',
+28 silly addNameRange     '0.8.4',
+28 silly addNameRange     '0.8.5',
+28 silly addNameRange     '0.8.6',
+28 silly addNameRange     '0.8.8',
+28 silly addNameRange     '1.0.0' ] ]
+29 verbose addNamed [ 'ejs', '1.0.0' ]
+30 verbose addNamed [ '1.0.0', '1.0.0' ]
+31 silly lockFile 3b9d58f7-ejs-1-0-0 ejs@1.0.0
+32 verbose lock ejs@1.0.0 /home/vagrant/.npm/3b9d58f7-ejs-1-0-0.lock
+33 silly lockFile 2583a321-stry-npmjs-org-ejs-ejs-1-0-0-tgz https://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz
+34 verbose lock https://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz /home/vagrant/.npm/2583a321-stry-npmjs-org-ejs-ejs-1-0-0-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz',
+35 verbose addRemoteTarball   'c9c60a48a46ee452fb32a71c317b95e5aa1fcb3d' ]
+36 info retry fetch attempt 1 at 11:51:06
+37 verbose fetch to= /tmp/npm-24171-OZ0EvD2P/registry.npmjs.org/ejs/-/ejs-1.0.0.tgz
+38 http GET https://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz
+39 http 200 https://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz
+40 silly lockFile 2583a321-stry-npmjs-org-ejs-ejs-1-0-0-tgz https://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz
+41 silly lockFile 2583a321-stry-npmjs-org-ejs-ejs-1-0-0-tgz https://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz
+42 silly lockFile 3b9d58f7-ejs-1-0-0 ejs@1.0.0
+43 silly lockFile 3b9d58f7-ejs-1-0-0 ejs@1.0.0
+44 silly lockFile bcdf6e5f-ejs ejs@
+45 silly lockFile bcdf6e5f-ejs ejs@
+46 silly resolved [ { name: 'ejs',
+46 silly resolved     description: 'Embedded JavaScript templates',
+46 silly resolved     version: '1.0.0',
+46 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+46 silly resolved     keywords: [ 'template', 'engine', 'ejs' ],
+46 silly resolved     devDependencies: { mocha: '*', should: '*' },
+46 silly resolved     main: './lib/ejs.js',
+46 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/ejs.git' },
+46 silly resolved     scripts: { test: 'mocha --require should --reporter spec' },
+46 silly resolved     bugs: { url: 'https://github.com/visionmedia/ejs/issues' },
+46 silly resolved     homepage: 'https://github.com/visionmedia/ejs',
+46 silly resolved     _id: 'ejs@1.0.0',
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'c9c60a48a46ee452fb32a71c317b95e5aa1fcb3d',
+46 silly resolved        tarball: 'http://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz' },
+46 silly resolved     _from: 'ejs@',
+46 silly resolved     _npmVersion: '1.3.21',
+46 silly resolved     _npmUser: { name: 'tjholowaychuk', email: 'tj@vision-media.ca' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     directories: {},
+46 silly resolved     _shasum: 'c9c60a48a46ee452fb32a71c317b95e5aa1fcb3d',
+46 silly resolved     _resolved: 'https://registry.npmjs.org/ejs/-/ejs-1.0.0.tgz' } ]
+47 info install ejs@1.0.0 into /usr/local/lib
+48 info installOne ejs@1.0.0
+49 verbose lib/node_modules/ejs unbuild
+50 verbose tar unpack /home/vagrant/.npm/ejs/1.0.0/package.tgz
+51 silly lockFile 6dc832ea-r-usr-local-lib-node-modules-ejs tar:///usr/local/lib/node_modules/ejs
+52 verbose lock tar:///usr/local/lib/node_modules/ejs /home/vagrant/.npm/6dc832ea-r-usr-local-lib-node-modules-ejs.lock
+53 silly lockFile 0e87e164-agrant-npm-ejs-1-0-0-package-tgz tar:///home/vagrant/.npm/ejs/1.0.0/package.tgz
+54 verbose lock tar:///home/vagrant/.npm/ejs/1.0.0/package.tgz /home/vagrant/.npm/0e87e164-agrant-npm-ejs-1-0-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/ejs'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/ejs']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/ejs',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/ejs',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Linux 3.2.0-4-amd64
+59 error command "/usr/local/bin/node" "/usr/local/bin/npm" "-g" "install" "ejs"
+60 error cwd /vagrant/cocktailomat-test
+61 error node -v v0.10.33
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/ejs
+64 error fstream_path /usr/local/lib/node_modules/ejs
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/ejs'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
